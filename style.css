@@ -1,0 +1,75 @@
+* {
+    margin:auto;
+}
+
+/*police inter */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+
+.containercard {    /*whole card*/
+
+    box-shadow: 0 20px 30px #f9f9f9f9;
+    border-radius: 30px;
+    display:flex;
+    flex-direction: column;
+    width:500px;
+    height: 400px;
+    font-family: 'Inter';
+    border-radius: 2em;
+    transform: rotate(-5deg);
+    transition: 2s;    /*animation*/
+    overflow: hidden;
+
+}
+
+
+
+.tete {   /*text of card*/
+    display:flex;
+    justify-content: center;
+    color: black;
+    font-size:medium;
+    font-weight: 600;
+    height: 250px;
+    margin:25px;
+    padding:0px;
+    }
+
+
+.foot{    /*below green rectangle */
+
+        display:flex;
+        background: linear-gradient(#74d690, #5cbfbb);
+        width:500px;
+        height:150px;
+        margin: 0;
+        border-radius: 0 0 2em 2em;
+}
+
+.photo{
+    width:60px;
+    height:60px;
+    border: white solid 4px;
+    border-radius: 50%;
+   
+}
+
+.photo:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.nameestelle{
+    padding:50px;
+    color:white;  
+   
+}
+
+.photonom{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
